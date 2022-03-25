@@ -67,15 +67,12 @@
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
-	canvas.focus();
           };
         }).catch((message) => {
           alert(message);
         });
       };
       document.body.appendChild(script);
-  </script>
-
-  
+    </script>
   </body>
 </html>
